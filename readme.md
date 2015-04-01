@@ -11,3 +11,6 @@
 где
 - com.vkharlamov.grooviola.Main - main class
 - -tests "tests/SmokeTestScript.groovy" -gui true - входные параметры запуска
+
+Данные для теста загружаются из файла ./data/TestData.groovy. Данные в файле неактуальны. Для успешного прохождения теста необходимо изменить
+данные в этом файле на актуальные.
