@@ -6,7 +6,7 @@
 
 Для запуска проекта необходимо скачать проект Grooviola по ссылке https://github.com/v-kharlamov/grooviola.git и добавить его к проекту теста.
 
-Проект необходимо запускать с параметрами java com.vkharlamov.grooviola.Main -tests "tests/Java/JavaTest.groovy" -gui true
+Проект необходимо запускать с параметрами java com.vkharlamov.grooviola.Main -tests "tests/SmokeTestScript.groovy" -gui true
 
 где
 - com.vkharlamov.grooviola.Main - main class
@@ -14,3 +14,5 @@
 
 Данные для теста загружаются из файла ./data/TestData.groovy. Данные в файле неактуальны. Для успешного прохождения теста необходимо изменить
 данные в этом файле на актуальные.
+
+Для изменения кодировки передачи данных в вебсервис, следует изменить кодировку в файле ./config/project.groovy
